@@ -1,0 +1,211 @@
+/* CSS for the header */
+header {
+  background-color: #FFFFFF;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  margin-left: 30px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00BFFF;
+}
+
+/* CSS for the hero section */
+.hero {
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 50px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #00BFFF;
+  color: #FFFFFF;
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #FFFFFF;
+  color: #00BFFF;
+  border: 1px solid #00BFFF;
+}
+
+/* CSS for the features section */
+.features {
+  background-color: #F2F2F2;
+  padding: 50px 5%;
+}
+
+.features h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.feature-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+  margin-right: 2%;
+}
+
+.feature-item i {
+  font-size: 60px;
+  color: #00BFFF;
+  margin-bottom: 30px;
+}
+
+.feature-item h3 {
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.feature-item p {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+}
+
+/* CSS for the investment items section */
+.investment-items {
+  padding: 50px 5%;
+}
+
+.investment-items h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.investment-items p {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color:rgba(0, 0, 0, 0.2)
+}
+/* Style for the main container */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style for the navigation */
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #f00;
+}
+
+/* Style for the content */
+.content {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Style for the footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style for the footer links */
+footer a {
+  margin: 0 10px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #333;
+}
+
+footer a:hover {
+  color: #f00;
+}
